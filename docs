@@ -1,0 +1,11 @@
+1. touchs.js (Khởi động network nodejs)
+2. npm init -y (-y: không cần điền thông tin muốn, tạo mặc định)
+3. Folder utils: chứa hàm và class hay sử dụng 
+4. Config: 
+5. npm i express --save
+6. package-lock.json: tracking thư viện đã cần 
+7. File server.js chỉ kết nối với network của nodejs
+8. Install package:
+    1. Morgan: npm i morgan --save-dev (thư viện in ra các log khi người dùng thực hiện request)
+    2. helmet: npm i helmet --save-dev (bảo vệ thông tin riêng tư, cookie)
+    3. conpression: npm i compression --save-dev (giảm băng thông khi gởi dữ liệu đến server)
